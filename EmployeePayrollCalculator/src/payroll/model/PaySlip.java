@@ -18,5 +18,23 @@ public class PaySlip {
         this.netPay = netPay;
     }
 
+    public Employee getEmployee() {
+        return employee;
+    }
 
+    public double getGrossPay() {
+        return grossPay;
+    }
+
+    public double getTaxAmount() {
+        return taxAmount;
+    }
+
+    public Map<String, Double> getDeductions() {
+        return deductions;
+    }
+
+    public double getNetPay() {
+        return netPay;
+    }
 }
