@@ -5,6 +5,8 @@ import java.util.Map;
 
 public class WordCounter {
 
+    private int totalWordCount = 0;
+
     public Map<String, Integer> countWords(String normalizedText) {
         Map<String, Integer> frequencyMap = new HashMap<>();
 
@@ -23,9 +25,14 @@ public class WordCounter {
             }
 
             frequencyMap.put(word, frequencyMap.getOrDefault(word, 0) + 1);
+            totalWordCount++;
         }
 
         return frequencyMap;
+    }
+
+    public int getTotalWordCount() {
+        return totalWordCount;
     }
 
 }

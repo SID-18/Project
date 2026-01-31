@@ -39,15 +39,15 @@ public class StatisticsReport {
         }
     }
 
-    private int getTotalWordCount() {
+    public int getTotalWordCount() {
         return wordFrequency.values().stream().mapToInt(Integer::intValue).sum();
     }
 
-    private int getUniqueWordCount() {
+    public int getUniqueWordCount() {
         return wordFrequency.size();
     }
 
-    private double getAverageWordLength() {
+    public double getAverageWordLength() {
         int totalLength = wordFrequency.keySet()
                 .stream()
                 .mapToInt(String::length)
@@ -57,14 +57,14 @@ public class StatisticsReport {
                 (double) totalLength / wordFrequency.size();
     }
 
-    private String getLongestWord() {
+    public String getLongestWord() {
         return wordFrequency.keySet()
                 .stream()
                 .max(Comparator.comparingInt(String::length))
                 .orElse("");
     }
 
-    private String getMostFrequentWord() {
+    public String getMostFrequentWord() {
         return wordFrequency.entrySet()
                 .stream()
                 .max(Map.Entry.comparingByValue())
@@ -72,7 +72,7 @@ public class StatisticsReport {
                 .orElse("");
     }
 
-    private List<Map.Entry<String, Integer>> getTopNWords(int n) {
+    public List<Map.Entry<String, Integer>> getTopNWords(int n) {
         return wordFrequency.entrySet()
                 .stream()
                 .sorted(Map.Entry.<String, Integer>comparingByValue().reversed())
