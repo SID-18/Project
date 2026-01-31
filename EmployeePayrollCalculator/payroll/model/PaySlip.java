@@ -1,4 +1,4 @@
-package payroll.model;
+package EmployeePayrollCalculator.payroll.model;
 
 import java.util.Map;
 

@@ -1,6 +1,6 @@
-package payroll.deduction;
+package EmployeePayrollCalculator.payroll.deduction;
 
-import payroll.model.Employee;
+import EmployeePayrollCalculator.payroll.model.Employee;
 
 public class UnionDeduction implements DeductionPolicy {
 

@@ -1,10 +1,10 @@
-package payroll;
+package EmployeePayrollCalculator.payroll;
 
-import payroll.deduction.*;
-import payroll.model.*;
-import payroll.processor.PayrollProcessor;
-import payroll.salary.GrossPayCalculator;
-import payroll.tax.TaxCalculator;
+import EmployeePayrollCalculator.payroll.deduction.*;
+import EmployeePayrollCalculator.payroll.model.*;
+import EmployeePayrollCalculator.payroll.processor.PayrollProcessor;
+import EmployeePayrollCalculator.payroll.salary.GrossPayCalculator;
+import EmployeePayrollCalculator.payroll.tax.TaxCalculator;
 
 import java.util.List;
 

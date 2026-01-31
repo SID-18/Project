@@ -1,4 +1,4 @@
-package payroll.model;
+package EmployeePayrollCalculator.payroll.model;
 
 public enum EmployeeType {
     FULL_TIME,

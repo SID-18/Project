@@ -1,7 +1,7 @@
-package payroll.deduction;
+package EmployeePayrollCalculator.payroll.deduction;
 
-import payroll.model.Employee;
-import payroll.model.EmployeeType;
+import EmployeePayrollCalculator.payroll.model.Employee;
+import EmployeePayrollCalculator.payroll.model.EmployeeType;
 
 public class HealthInsuranceDeduction implements DeductionPolicy {
 
