@@ -1,10 +1,10 @@
-package payroll.processor;
+package EmployeePayrollCalculator.payroll.processor;
 
-import payroll.deduction.DeductionPolicy;
-import payroll.model.Employee;
-import payroll.model.PaySlip;
-import payroll.salary.IGrossPayCalculator;
-import payroll.tax.ITaxCalculator;
+import EmployeePayrollCalculator.payroll.deduction.DeductionPolicy;
+import EmployeePayrollCalculator.payroll.model.Employee;
+import EmployeePayrollCalculator.payroll.model.PaySlip;
+import EmployeePayrollCalculator.payroll.salary.IGrossPayCalculator;
+import EmployeePayrollCalculator.payroll.tax.ITaxCalculator;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

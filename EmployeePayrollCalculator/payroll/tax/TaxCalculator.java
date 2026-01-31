@@ -1,4 +1,4 @@
-package payroll.tax;
+package EmployeePayrollCalculator.payroll.tax;
 
 public class TaxCalculator implements ITaxCalculator {
 

@@ -1,6 +1,6 @@
-package payroll.salary;
+package EmployeePayrollCalculator.payroll.salary;
 
-import payroll.model.Employee;
+import EmployeePayrollCalculator.payroll.model.Employee;
 
 public class GrossPayCalculator implements IGrossPayCalculator {
 
