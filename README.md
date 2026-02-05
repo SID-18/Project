@@ -1,5 +1,3 @@
-# SID-18-repo-411f9bea-1245-45e4-9e97-7d8483d5aa93
-
 ### Assignment 1:
 
 # Employee Payroll Calculator
